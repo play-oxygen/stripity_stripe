@@ -86,6 +86,7 @@ defmodule Stripe.Error do
           | :incorrect_cvc
           | :incorrect_zip
           | :card_declined
+          | :authentication_required
           | :missing
           | :processing_error
           | :bank_account_verification_failed
